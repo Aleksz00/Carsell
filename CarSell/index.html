@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="pics/cropped-autofelvasarlas-favicon.jpg" type="image/x-icon">
+    <title>CarSell</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+
+            <div class="icon">
+                <h2 class="Logo">CarSell</h2>
+            </div>
+            <!--Menü-->
+            <div class="menu">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">OUR STORY</a></li>
+                    <li><a href="https://alapjarat.hu/el-mondo/minden-idok-10-legnagyobb-darabszamban-ertekesitett-autoja" target="_blank">BIGGEST SALES</a></li>
+                    <li><a href="#">CONTENT</a></li>
+                </ul>
+            </div>
+            <!--Keresőfül-->
+            <div class="search">
+                <input class="src" type="search" placeholder="Search">
+                <button class="btn">Search</button>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <!--Tartalom(szöveg)-->
+            <h1>Car<span>Sell</span></h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem minima sunt perspiciatis? Et, hic
+                voluptatum possimus nesciunt officiis velit minus delectus necessitatibus ex illo voluptate culpa
+                reiciendis expedita odio quas porro, blanditiis, error iure asperiores. Laboriosam, id inventore rerum
+                consequatur, commodi quo ab quod omnis dolores itaque natus a nulla placeat libero. Reprehenderit
+                explicabo, iste molestiae quia eaque consectetur.
+            </p>
+            <!--Táblázat-->
+            <table>
+                <tr>
+
+                    <th colspan="2">SUCCESSES</th>
+                    <th>TAKEOVER</th>
+                    <th>AMOUNT OF SALE</th>
+                    <th colspan="2">PROFIT</th>
+
+                </tr>
+                <tr>
+                    <td><img src="/pics/audi-tuning-abt-sportsline-rs7-premiumcardesign.jpg" alt="Audi" class="kep">
+                    </td>
+                    <td>Audi RS 8</td>
+                    <td id="num1">100 million dollar</td>
+                    <td id="num2">120 million dollar</td>
+                    <td>
+                        <p id="text1"></p>
+                    </td>
+                    <td rowspan="3"><button id="count">Count</button></td>
+                </tr>
+                <tr>
+                    <td><img src="/pics/letöltés.jpg" alt="Mecedes" class="kep"></td>
+                    <td>Mercedes C63 AMG</td>
+                    <td id="num3">75 million dollar</td>
+                    <td id="num4">150 million dollar</td>
+                    <td>
+                        <p id="text2"></p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><img class="kep" src="/pics/Skoda.jpg" alt="Skoda"></td>
+                    <td>Skoda Fabia</td>
+                    <td id="num5">120 million dollar</td>
+                    <td id="num6">150 million dollar</td>
+                    <td>
+                        <p id="text3"></p>
+                    </td>
+
+                </tr>
+            </table>
+                <!--Űrlap-->
+            <form name="user" class="Form">
+                <h2>Login</h2>
+                <input type="text" name="name" maxlength="30" placeholder="Enter Name Here">
+                <input type="email" name="email" maxlength="30" placeholder="Enter Email Here">
+                <input type="password" name="pw" id="password" placeholder="Enter Password Here">
+                <input type="checkbox" id="true">
+                <p>Tick when you have entered your data</p>
+                <button type="button" class="btn1" value="Login" onclick="page()">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="Js/script.js"></script>
+    <!--Források:-->
+    <!--Képek:-->
+    <!--https://www.google.com/search?sca_esv=577601299&sxsrf=AM9HkKmK55Fkr5067UncY7qbkmOzviZtFw:1698582579039&q=audi+tuning&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjt4_qZoZuCAxUJ2gIHHSC3C28Q0pQJegQIDhAB&biw=1366&bih=651&dpr=1#imgrc=hGgSsvjIxmOpcM-->
+    <!--https://www.google.com/search?q=mercedes+tuning&tbm=isch&ved=2ahUKEwjZr6OboZuCAxUV_rsIHWWtBbMQ2-cCegQIABAA&oq=merced&gs_lcp=CgNpbWcQARgAMgcIABCKBRBDMgcIABCKBRBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgcIABCKBRBDMgoIABCKBRCxAxBDMggIABCABBCxAzIICAAQgAQQsQM6BAgjECc6BQgAEIAEOgYIABAHEB46BAgAEB46BwgjEOoCECc6CwgAEIAEELEDEIMBUMcJWOkdYNImaAFwAHgCgAF6iAHSDJIBBDEzLjSYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=NVA-ZZnBMJX87_UP5dqWmAs&bih=651&biw=1366#imgrc=Umdn8V5TiUbjgM-->
+    <!--https://www.google.com/search?q=skoda+fabiatuning&tbm=isch&ved=2ahUKEwjsuZPxoZuCAxWIuicCHcJ9CwsQ2-cCegQIABAA&oq=skoda+fabiatuning&gs_lcp=CgNpbWcQAzIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeOgQIIxAnOgQIABAeOgYIABAIEB5QvghY4g5gyhBoAHAAeACAAYUBiAHtBJIBAzMuM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=6VA-ZayhNoj1nsEPwvutWA&bih=651&biw=1366#imgrc=JBl5neXvZcXcrM-->
+    <!--Favicon:-->
+    <!--https://www.google.com/search?q=favicon+kocsi&tbm=isch&ved=2ahUKEwjtzpb2oZuCAxUEpycCHTmSA3gQ2-cCegQIABAA&oq=favicon+kocsi&gs_lcp=CgNpbWcQAzoECCMQJzoHCCMQ6gIQJzoFCAAQgAQ6BAgAEAM6CAgAEIAEELEDOgsIABCABBCxAxCDAToHCAAQigUQQzoECAAQHjoHCAAQExCABDoGCAAQHhATOggIABAIEB4QE1CkEFiMMGC8M2gBcAB4AIABgAGIAd8KkgEDNy43mAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=9FA-Ze2EGoTOnsEPuaSOwAc&bih=651&biw=1366#imgrc=SrDsICLJfyP6eM-->
+    <!--Háttérkép:-->
+    <!--https://besthqwallpapers.com/cars/bmw-m4-tuning-f82-night-2018-cars-64552-->
+</body>
+
+</html>

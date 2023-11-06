@@ -1,0 +1,275 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width: 100%;
+    background:url(../pics/bmw-f82-dark-side-car-digital-art_1569189343.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/*Menü méret*/
+.navbar
+{
+   width: 1200px;
+   height: 75px;
+   margin: auto;
+}
+
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.Logo
+{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    float: left;
+    padding-top: 10px;
+}
+/*Menu formázás*/
+.menu
+{
+    width: 700px;
+    float: left;
+    height: 70px;
+}
+
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li
+{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+/*Menu cimekre ha rávisszük az egeret*/
+ul li a:hover
+{
+    color: rgb(47, 110, 228);
+}
+/*Kereső mező*/
+.search
+{
+    width:200px;
+    float: left;
+    margin-left:1300px;
+    margin-top: -60px;
+}
+.src
+{
+    width: 200px;
+    font-family: Arial;
+    height: 40px;
+    background: transparent; /*Háttér átlátszó lesz*/
+    border: 1px solid rgb(47, 110, 228);
+    margin-top: 13px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius: 5px;
+}
+/*Kereső mező alatti gomb*/
+.btn
+{
+    width: 100%;
+    height: 40px;
+    background: rgb(47, 110, 228);
+    border: 2px solid rgb(47, 110, 228);
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+}
+
+.content
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-left:25px;
+}
+
+.content h1 
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content span 
+{
+    color: rgb(47, 110, 228);
+}
+.content .text
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin: 30px;
+    text-indent: 20px;
+    text-align: justify;
+}
+/*Űrlap formázás*/
+.Form
+{
+    width: 245px;
+    height: 430px;
+    background: rgba(59, 58, 58, 0.979);
+    position: absolute;
+    top: 60px;
+    left: 1500px;
+    border-radius: 10px;
+}
+.btn1
+{
+    width: 50%;
+    height: 40px;
+    background:rgb(47, 110, 228) ;
+    border: 2px solid rgb(47, 110, 228);
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.Form h2 
+{
+   
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+/*űrlap beviteli mezők formázása*/
+.Form input 
+{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.Form input:focus
+{
+    outline: none;
+}
+
+::placeholder
+{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.btn1
+{
+    width: 240px;
+    height: 40px;
+    background: rgb(47, 110, 228);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    margin-left: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.btn1:hover
+{
+    background: white;
+    color: rgb(47, 110, 228);
+}
+
+.btn1 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*táblázat formázása*/
+table
+{
+   
+   margin-left: 250px; 
+}
+
+th,td 
+{
+    padding: 5px;
+    background-color:rgb(255, 255, 255,0.6) ;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+th
+{
+    color: rgb(47, 110, 228);
+}
+.kep
+{
+    width: 110px;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+#count
+{
+    background: rgb(47, 110, 228);
+    color: black;
+    width: 80px;
+    border-radius: 10px;
+}
+
